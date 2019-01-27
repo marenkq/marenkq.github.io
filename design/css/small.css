@@ -54,13 +54,25 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
+main figure.myphoto {
+    width: 100%;
+    margin: 0 0 0 2%;
+    float: right;
+    padding-bottom: 25px;
+}
 
+main figure.myphoto img {width: 100%;}
 
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
+    float: bottom;
+}
+
+footer:before {
+    clear: both;
 }
 
 
