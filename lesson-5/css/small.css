@@ -1,0 +1,95 @@
+* { -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* body rules */
+body {
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+/* header rules here */
+header {
+    background-color: #ffff;
+    padding: 1rem 2%;
+}
+header h1 {
+    color: #4682B4;
+    margin: 0;
+}
+header h2 {
+    color: #4682B4;
+    margin: 0;
+    font-weight: 100;
+    padding-left: 89px;
+}
+
+header figure img {
+    float: left;
+    width: 100px;
+    margin-left: -50px;
+    margin-bottom: -20px;
+
+}
+
+/* Navigation rules here */
+nav {background-color: rgb(144, 180, 208);}
+nav ul {margin: 0; padding: 0;}
+nav li {list-style-type: none;}
+nav li.active {background-color: #3a5a767a;}
+
+nav a {
+    display: block;
+    padding: .8rem 0; /* 44 min height */
+    color: #ffff;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav a:hover {background-color: rgb(157, 188, 213);}
+
+/* main rules here */
+main {
+    padding: 1rem 2%;
+    display: block;
+}
+main h1 {color: rgb(0, 0, 0);}
+main h2 {color: #000000;}
+main h4 {color: #000000}
+
+main figure img {width: 100%;}
+main figure {
+    width: 100%;
+    margin: 0;
+}
+main figcaption {text-align: center; font-size: .8rem;}
+
+article {
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;
+}
+
+main a.ref {
+    display: block;
+    padding: .8rem 0;
+    margin:0;
+    list-style-type: none;
+}
+footer.one {
+    text-align: left;
+    padding: 1rem 2%;
+}
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #4682B4;
+    color: black;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
