@@ -1,0 +1,68 @@
+@media only screen and (min-width: 560px) {
+
+header div h1 {font-size: 185%;}
+header div h2 {font-size: 105%;}
+
+nav li {
+    float: left;
+    width: auto;
+    margin-right: 2px;
+}
+nav a {
+    padding: 5px 0;
+    display: block;
+}
+main figure {
+    float: right;
+    width: 66.67%;
+    margin-left: 2%;
+    padding-bottom: .5rem;
+}
+nav a {
+    display: block;
+    padding: .8rem 0; /* 44 min height */
+    color: #ffff;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 12px;
+}
+nav button {
+    display: none;
+}
+.stats {
+    display: block;
+}
+
+section {
+    display: block;
+}
+
+table {width: 59%; border: 1px solid black;}
+
+th {
+    text-align:left;
+    padding: .3rem;
+    background-color: #a4a4a4;
+}
+
+tr {margin-bottom: 10px;}
+
+td {padding-right: .5rem;}
+
+.gallery {
+    justify-content: center;
+}
+
+.gallery figure {
+    flex-basis: 46%;
+    max-width: 46%;
+}
+
+div.news {
+    clear: both;
+    column-count: 3;
+    column-rule: 1px solid #ddd;
+}
+
+} /* end of media query*/

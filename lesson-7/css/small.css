@@ -1,0 +1,159 @@
+* { -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* body rules */
+body {
+    font-family: Verdana;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+/* header rules here */
+header {
+    background-color: #ffff;
+    display: grid;
+    height: 110px;
+    grid-template-columns: 100px auto;
+    justify-content: start;
+    align-content: center;
+    column-gap: 10px;
+}
+header div h1 {
+    color: #4682B4;
+    font-size: 175%;
+}
+header div h2 {
+    color: #4682B4;
+    font-size: 110%;
+    font-weight: 100;
+}
+
+header figure img {
+    width: 100px;
+    margin-left: -25px;
+}
+
+/* Navigation rules here */
+nav {background-color: #90b4d0;}
+nav ul {margin: 0; padding: 0;}
+nav li {list-style-type: none;}
+nav li.active {background-color: #3a5a767a;}
+
+nav button {
+    margin: .2rem 2%;
+    border: none;
+    font-size: 1.6rem;
+    background-color: rgb(144, 180, 208);
+}
+
+nav button:hover {
+    background-color: #7aa2c1
+}
+
+nav ul.hide {
+    display: none;
+}
+nav a {
+    display: block;
+    padding: .8rem 0; /* 44 min height */
+    color: #ffff;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav a:hover {background-color: rgb(157, 188, 213);}
+
+/* main rules here */
+main {
+    padding: 1rem 2%;
+    display: block;
+}
+main h1 {color: #000000;}
+main h2 {color: #000000;}
+main h4 {color: #000000;}
+
+main figcaption {text-align: center; font-size: .8rem;}
+
+img.hero {
+    width: 100;
+    clear: none;
+    max-width: 100%;
+
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+.stats {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background: radial-gradient(#eee, #4567aa);
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #fff;
+    display: none;
+}
+section {display: none;}
+
+img.history {
+    width: 100%;
+    border-radius: 5%
+}
+
+article {
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;
+}
+
+main a.ref {
+    display: block;
+    padding: .8rem 0;
+    margin:0;
+    list-style-type: none;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.gallery figure {
+    flex-basis: 96%;
+    width: 100%;
+    margin: 1rem 2%;
+}
+
+div.gallery figure img {
+    width: 100%;
+}
+
+div.gallery figure img:hover { box-shadow: 0 0 30px gray;}
+
+main figcaption {
+    font-size: .8rem;
+    margin-bottom: .8rem;
+}
+
+footer.one {
+    text-align: left;
+    padding: 1rem 2%;
+}
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #4682B4;
+    color: black;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
