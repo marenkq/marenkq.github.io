@@ -16,7 +16,10 @@ nav a {
     text-decoration: none;
     margin-left: 15px;
     font-size: 12px;
-
+}
+nav button {
+    display: none;
+}
 div.news {
     clear: both;
     column-count: 3;

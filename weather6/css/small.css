@@ -32,11 +32,25 @@ header figure img {
 }
 
 /* Navigation rules here */
-nav {background-color: rgb(144, 180, 208);}
+nav {background-color: #90b4d0;}
 nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;}
 nav li.active {background-color: #3a5a767a;}
 
+nav button {
+    margin: .2rem 2%;
+    border: none;
+    font-size: 1.6rem;
+    background-color: rgb(144, 180, 208);
+}
+
+nav button:hover {
+    background-color: #7aa2c1
+}
+
+nav ul.hide {
+    display: none;
+}
 nav a {
     display: block;
     padding: .8rem 0; /* 44 min height */
