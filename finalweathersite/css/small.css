@@ -211,7 +211,7 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #5F9EA0;
+    background-color: rgb(115, 121, 135);
     color: black;
     border-radius: 1rem;
     width: 96%;
@@ -221,7 +221,7 @@ form input.submitBtn {
 
 }
 
-.submitBtn:hover {background-color: #d4d4d4}
+.submitBtn:hover {background-color: #a4a3a3}
 
 form label.top input:required {
     border-left: red solid 6px;
