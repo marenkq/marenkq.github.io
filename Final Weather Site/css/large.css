@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1028px) {
+
+    footer, main {max-width: 90rem; margin: auto;}   
+    nav ul {padding-left: 2%;}
+    nav li {width: auto;}
+    nav a {padding: .8rem;}
+    
+    main figure {width: 50%;}
+    
+    div.news {
+        column-count: 4;
+    }
+
+    section.flex2 article {flex-basis: 27%;}
+    
+    .gallery figure {
+        flex-basis: 29%;
+        max-width: 29%;
+    }
+
+    footer.one {text-align: left;}
+
+    } /* end of media query*/
